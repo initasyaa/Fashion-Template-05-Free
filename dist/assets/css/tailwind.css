@@ -692,6 +692,7 @@ select{
     max-width: 992px;
     padding-right: 4rem;
     padding-left: 4rem;
+    padding-top: 10px;
   }
 }
 @media (min-width: 1200px){
@@ -1046,8 +1047,8 @@ select{
   padding-bottom: 0.75rem !important;
 }
 .py-32{
-  padding-top: 8rem !important;
-  padding-bottom: 8rem !important;
+  padding-top: 5rem !important;
+  padding-bottom: 0rem !important;
 }
 .py-5{
   padding-top: 1.25rem !important;
@@ -1261,7 +1262,6 @@ body{
 
 section{
   position: relative;
-  padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
@@ -1442,6 +1442,7 @@ a {
   padding-bottom: 2.5rem;
   padding-left: 2.75rem;
   padding-right: 2.75rem;
+  min-height: 250px;
 }
 
 .btn{
@@ -1919,13 +1920,13 @@ a {
     padding-bottom: 1rem !important;
   }
   .lg\:pb-40{
-    padding-bottom: 10rem !important;
+    padding-bottom: 4rem !important;
   }
   .lg\:pr-\[17px\]{
     padding-right: 17px !important;
   }
   .lg\:pt-56{
-    padding-top: 14rem !important;
+    padding-top: 8rem !important;
   }
   .lg\:text-\[15px\]{
     font-size: 15px !important;
